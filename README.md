@@ -3,8 +3,9 @@ Overview
 
 Welcome Liga Spain Project! 
 This project create a Modern Data Warehouse Architecture simulated with a Liga Spain Data. Using different tools like Airflow, BigQuery, Dataflow (Apache Beam), DBT, Soda.
-![Architecture](architecture.png)
 
+
+![Architecture](architecture.png)
 
 Project Contents
 ================
