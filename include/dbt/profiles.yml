@@ -1,0 +1,12 @@
+liga_spain:
+ target: dev
+ outputs:
+  dev:
+    type: bigquery
+    method: service-account
+    keyfile: /usr/local/airflow/include/gcp/keyfile.json
+    project: testing-jasm
+    dataset: liga_spain
+    threads: 1
+    timeout_seconds: 300
+    location: US

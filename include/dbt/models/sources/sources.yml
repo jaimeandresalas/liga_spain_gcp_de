@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: liga_spain
+    database: testing-jasm # Put the project id!
+
+    tables:
+      - name: raw_liga_spain

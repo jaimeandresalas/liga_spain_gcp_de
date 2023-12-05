@@ -1,0 +1,13 @@
+checks for report_teams_year:
+  #Check fails if the team column has any missing values
+  - missing_count(Team) = 0:
+      name: All teams have a value
+  #Check fails if the year column has any missing values
+  - missing_count(Year) = 0:
+      name: All years have a value
+  #Check fails if the TotalWins column has any missing values
+  - missing_count(TotalWins) = 0:
+      name: All TotalWins have a value
+  #Check fails if the TotalLosses column has any missing values
+  - missing_count(TotalLosses) = 0:
+      name: All TotalLosses have a value

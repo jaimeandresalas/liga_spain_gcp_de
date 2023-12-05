@@ -1,0 +1,15 @@
+data_source liga_spain:
+  type: bigquery
+  connection:
+    account_info_json_path: /usr/local/airflow/include/gcp/keyfile.json
+    auth_scopes:
+    - https://www.googleapis.com/auth/bigquery
+    - https://www.googleapis.com/auth/cloud-platform
+    - https://www.googleapis.com/auth/drive
+    project_id: 'testing-jasm'
+    dataset: liga_spain
+
+soda_cloud:
+  host: cloud.us.soda.io
+  api_key_id: 2daa954d-e1b8-4291-8b33-14945d33ef65
+  api_key_secret: 44ecVApmggi2hI4I2cTnnBYufvMiX4JrtRdZEvYM-b_ogCwxTbTQRw

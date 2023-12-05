@@ -1,0 +1,13 @@
+checks for raw_liga_spain:
+  - schema:
+      fail:
+        when wrong column type:
+          Date: string
+          HomeTeam: string
+          AwayTeam: string
+          FTHG: float64
+          FTAG: string
+          FTR: string
+          HTHG: float64
+          HTAG: string
+          HTR: string

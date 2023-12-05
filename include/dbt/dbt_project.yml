@@ -1,0 +1,7 @@
+name: 'liga_spain'
+
+profile: 'liga_spain'
+
+models:
+  liga_spain:
+    materialized: table
